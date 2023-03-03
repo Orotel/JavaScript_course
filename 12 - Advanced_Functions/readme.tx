@@ -1,0 +1,21 @@
+console.dir(function)// eu pego o informações sobre a função 
+
+
+** Function Scope**
+espaço onde está a demilitado o bloco da função,uma variável, fora dele se não houver retorno na função, ela fora do escopo não estara definida 
+ 
+** Block scope**
+a regra do escopo é diferente entre o tipo de variavel VAR e conforme é visto no exeplo de aula , é possivel acessar uma variavel usando o var mesmo fora do escopo e isso pode acarretar em uma série de problemas no futuro do nosso código.pois usando VAR eu posso contaminar o meu codigo com variaveis já existete
+
+** Lexical scope**
+se eu crio um nested function e eu dentro do meu child quero acessar minha variavel que está na minha mãe eu consigo pois uma função dentro da outra na hierarquia de baixo pra cima é possível porém eu preciso chamar a função child dentro da mãe
+
+** Function expressions**
+posso armazenar uma função dentro de uma variavel.
+posso colocar essa váriavel função dentro de um array
+posso colocar esse array dentro de um objeto
+resumindo posso tratar uma função como um objeto e fazer tudo que eu faria com uma váriavel
+
+**higher order functions**
+- posso usar uma função como argumento para outra função 
+- posso retornar uma função dentro de outra função e então tratar a primeira função como uma pilha.
