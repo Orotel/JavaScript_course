@@ -1,0 +1,28 @@
+// FUNÇÃO NOMINADA
+function exemplo (n1,n2){
+    return n1+n2
+}
+console.log(exemplo(12,30))
+
+// ================================== //
+
+// FUNÇÃO ANONIMA
+const example = function(n1,n2){
+    return n1+n2
+}
+console.log(example(10,50))
+
+//=================================== //
+
+// ARROW FUNCTION
+const arrowFunction = (n1,n2) =>{
+    return n1+n2
+}
+console.log(arrowFunction(10,50))
+
+//===================================//
+//HOFS -HIGHER FUNCTIONS
+const array = [23,60,90,80]
+array.forEach((numero)=> console.log( `numero - ${numero}`))
+
+ 

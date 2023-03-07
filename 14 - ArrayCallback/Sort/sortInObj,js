@@ -1,0 +1,23 @@
+const books= [{
+    title: 'good Omens',
+    authors: ['terry pratchett','neil gaiman'],
+    rating:4.25
+},{
+    title: 'The Perks Of Being A Wallflower',
+    authors: ['Logan lerman','emma watson'],
+    rating:5.0
+},{
+    title: '500 days of summer',
+    authors: ['Joseph Gordon','neil gaimanzooey deschanel'],
+    rating:4.75
+},{
+    title: 'Interstellar',
+    authors: ['Mathew mcConauld','Jessica Chastain'],
+    rating:4.25
+},]
+
+const ordenadadeBooks   = books.sort((a,b) => a.rating - b.rating)
+const descOrdenadeBooks = books.slice().sort((a,b) => b.rating-a.rating)
+// ao usar os dois tipos de ordenação eu preciso copiar um deles pois se não  os dois iriam referenciar o mesmo array
+console.log(ordenadadeBooks)
+console.log(descOrdenadeBooks)
