@@ -1,0 +1,9 @@
+quando temos uma função com mais de um parametro e acabamos esquecendo o valor de algum deles. o que nos aparece no console.log é um NAN
+para resolver esse problema podemos colocar um valor prédefinido caso nenhum seja apresentado.
+Na syntaxe antiga tinhamos que fazer uma coisa complexa e chata, porém agora com as atualizações colocar um default ficou mais simples.
+
+function (param1, param2 = 1)
+
+isso mesmo, só isso já resolve o nosso problema.
+Lembre de sempre colocar no primeiro e segundo parâmetro o default
+não vale apena colocar só no primeiro.
