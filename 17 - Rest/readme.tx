@@ -1,0 +1,8 @@
+SPREAD**
+no spread em um array espalhamos os elementos e é util para metodos como 
+math.max(elementos) no qual elementos só aceita valores e não array.
+
+REST**
+Usamos o rest (...rest) para pegar os elementos e colocar dentro de um array.
+Geralmente usado em parâmetros de funções que não sabemos a quantidade de coisas que vamos receber.
+Exemplo de uma função que recebe n* valores e soma todos eles.
