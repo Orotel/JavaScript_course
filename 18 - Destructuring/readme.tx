@@ -1,0 +1,9 @@
+A short clean syntax to unpack :
+values to string
+props from objects
+
+=================//===========================
+Desestruturar é tirar um elemento de um array ou de um objeto e coloca-lo dentro de uma variável de forma simples e rapida.
+
+nos arrays desestruturação baseando-se no index
+nos objetos desestruturação baseando-se inteiramente nas props e não se importanto com a ordem.

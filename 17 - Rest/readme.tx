@@ -1,4 +1,5 @@
-SPREAD**
+SPREAD** -- elementos espalhados em um array 
+
 no spread em um array espalhamos os elementos e é util para metodos como 
 math.max(elementos) no qual elementos só aceita valores e não array.
 
