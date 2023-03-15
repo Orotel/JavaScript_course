@@ -1,3 +1,4 @@
+//trago minhas props para variaveis fora do escopo.
 const runner = {
     first:'ennia',
     last:'kipchoge',
@@ -7,6 +8,7 @@ const runner = {
 }
 //props in obj
 const {first,last,country}= runner
+
 console.log(first)
 console.log(last)
 console.log(country)

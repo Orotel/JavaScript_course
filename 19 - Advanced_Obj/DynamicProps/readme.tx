@@ -1,0 +1,16 @@
+                **dynamic props 
+Aprendemos a usar uma variavel de uma coisa e o nome de outra em um objeto de forma dinamica e rápida 
+
+usar o resultado de uma variavel como key 
+e usar o resultado de outra variavel como value
+e assim fazer uma propriedade dinâmica.
+
+objeto ={ [key]: value}
+
+=====================================//================================
+Agora quero criar um função que faz isso
+
+const addProp = (obj,key,value) =>({...obj,[key]:value})
+// aqui espalhamos o obj e depois fazemos o que foi ensinado acima
+[key]:value .
+// Primeira vez que trabalhamos com uma função retornando um {}
